@@ -1,0 +1,11 @@
+<div class="w-full min-h-screen flex flex-col items-center pt-24 md:pt-36 bg-gradient-to-br from-green-200 to-green-500">
+  <h1 class="text-7xl md:text-[100px] font-wonder text-green-700"> Vegan Meetups </h1>
+  <p class="text-lg md:text-2xl text-green-800 font-semibold mt-4"> 100% free platform for vegans to create meetups </p>
+  <div class="relative flex justify-center items-center mt-8"> 
+    <%= image_tag "veggies.png", class: "h-96" %>
+    <div class="absolute flex items-center gap-4"> 
+      <%= link_to "Log in", new_user_session_path, class: "text-lg bg-green-500 text-green-50 border-2 border-green-600 px-3 py-2 rounded-full hover:scale-105" %>
+      <%= link_to "Create Account", new_user_registration_path, class: "text-lg bg-gray-300 text-gray-700 border-2 border-green-600 px-3 py-2 rounded-full hover:scale-105" %>
+    </div>
+  </div>
+</div>
